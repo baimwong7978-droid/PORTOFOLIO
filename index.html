@@ -4,174 +4,582 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Portfolio Muhammad Ibrahim Dasuki</title>
+    <title>Muhammad Ibrahim Dasuki — Portfolio</title>
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navbar -->
-    <nav>
-        <div class="logo">MID.</div>
+    <!-- Background -->
+    <div class="background">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="grid"></div>
+    </div>
 
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Tentang</a></li>
-            <li><a href="#projects">Proyek</a></li>
-            <li><a href="#contact">Kontak</a></li>
-        </ul>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+        <a href="#home" class="logo">
+            M<span>I</span>D<span>.</span>
+        </a>
+
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Tentang</a>
+            <a href="#skills">Skill</a>
+            <a href="#projects">Proyek</a>
+            <a href="#contact">Kontak</a>
+        </div>
+
+        <a href="#contact" class="nav-contact">
+            Let's Talk
+            <span>↗</span>
+        </a>
+
     </nav>
-            <h2>Web Developer & Designer</h2>
 
-            <p class="description">
-                Saya membuat website modern, responsif, dan menarik
-                menggunakan teknologi web seperti HTML, CSS, dan JavaScript.
+
+    <!-- ================= HERO ================= -->
+
+    <main id="home" class="hero">
+
+        <div class="hero-left">
+
+            <div class="available">
+                <span class="dot"></span>
+                Available for work
+            </div>
+
+            <p class="intro">
+                HALO, SAYA
             </p>
 
-            <div class="buttons">
-                <a href="#projects" class="btn">Lihat Proyek</a>
-                <a href="#contact" class="btn-outline">Hubungi Saya</a>
-            </div>
-        </div>
+            <h1>
+                Muhammad Ibrahim
+                <span>Dasuki.</span>
+            </h1>
 
-        <div class="hero-card">
-            <div class="profile-circle">
-                MID
-            </div>
-
-            <h3>Muhammad Ibrahim Dasuki</h3>
-            <p>Web Developer</p>
-        </div>
-    </header>
-
-    <!-- Tentang Saya -->
-    <section id="about">
-        <div class="section-title">
-            <p>TENTANG SAYA</p>
-            <h2>Siapa Saya?</h2>
-        </div>
-
-        <div class="about-content">
-            <div class="about-text">
-                <p>
-                    Saya adalah seorang pengembang web yang memiliki
-                    ketertarikan dalam membuat website yang modern,
-                    sederhana, dan mudah digunakan.
-                </p>
-
-                <p>
-                    Saya terus belajar dan mengembangkan kemampuan
-                    saya dalam dunia pemrograman web serta desain.
-                </p>
+            <div class="role">
+                <span>Web Developer</span>
+                <i>×</i>
+                <span>UI Designer</span>
             </div>
 
-            <div class="skills">
-                <div class="skill">
-                    <span>HTML</span>
-                    <div class="progress">
-                        <div class="progress-bar html"></div>
+            <p class="hero-description">
+                Saya membangun website modern, responsif, dan
+                memiliki pengalaman pengguna yang menarik.
+                Saya mengubah ide menjadi pengalaman digital
+                yang berfungsi dengan baik.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn-primary">
+                    Explore My Work
+                    <span>↗</span>
+                </a>
+
+                <a href="#contact" class="btn-secondary">
+                    Hubungi Saya
+                </a>
+
+            </div>
+
+            <div class="social-links">
+                <a href="#">GitHub</a>
+                <span>•</span>
+                <a href="#">Instagram</a>
+                <span>•</span>
+                <a href="#">LinkedIn</a>
+            </div>
+
+        </div>
+
+
+        <!-- PROFILE -->
+
+        <div class="hero-right">
+
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+
+            <div class="profile-card">
+
+                <div class="profile-top">
+                    <span>PORTFOLIO</span>
+                    <span>2026</span>
+                </div>
+
+                <div class="profile-photo">
+                    <div class="photo-inner">
+                        MID
                     </div>
                 </div>
 
-                <div class="skill">
-                    <span>CSS</span>
-                    <div class="progress">
-                        <div class="progress-bar css"></div>
-                    </div>
+                <div class="profile-name">
+                    Muhammad Ibrahim Dasuki
                 </div>
 
-                <div class="skill">
-                    <span>JavaScript</span>
-                    <div class="progress">
-                        <div class="progress-bar js"></div>
-                    </div>
+                <div class="profile-job">
+                    Web Developer & Designer
                 </div>
+
+                <div class="profile-divider"></div>
+
+                <div class="profile-bottom">
+
+                    <div>
+                        <small>BASED IN</small>
+                        <strong>Indonesia</strong>
+                    </div>
+
+                    <div>
+                        <small>EXPERIENCE</small>
+                        <strong>Web Development</strong>
+                    </div>
+
+                </div>
+
             </div>
+
+            <div class="floating-card card-one">
+                <span>✦</span>
+                Clean Design
+            </div>
+
+            <div class="floating-card card-two">
+                <span>⚡</span>
+                Fast Website
+            </div>
+
         </div>
+
+    </main>
+
+
+    <!-- ================= STATS ================= -->
+
+    <section class="stats">
+
+        <div class="stat">
+            <strong>03+</strong>
+            <span>Projects</span>
+        </div>
+
+        <div class="stat">
+            <strong>03+</strong>
+            <span>Technologies</span>
+        </div>
+
+        <div class="stat">
+            <strong>100%</strong>
+            <span>Passion</span>
+        </div>
+
+        <div class="stat">
+            <strong>24/7</strong>
+            <span>Learning</span>
+        </div>
+
     </section>
 
-    <!-- Proyek -->
-    <section id="projects">
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
+
+        <div class="section-label">
+            <span>01</span>
+            ABOUT ME
+        </div>
+
         <div class="section-title">
-            <p>PORTFOLIO</p>
-            <h2>Proyek Saya</h2>
+            <h2>
+                Saya suka membuat
+                <span>hal digital.</span>
+            </h2>
         </div>
 
-        <div class="project-container">
+        <div class="about-grid">
 
-            <div class="project-card">
-                <div class="project-icon">📋</div>
+            <div class="about-main">
 
-                <h3>Sistem Presensi</h3>
-
-                <p>
-                    Aplikasi pencatatan kehadiran pegawai
-                    yang dibuat untuk membantu proses presensi
-                    menjadi lebih mudah dan terorganisir.
+                <p class="about-big">
+                    Website bukan hanya tentang tampilan,
+                    tetapi tentang bagaimana sebuah desain
+                    dapat memberikan pengalaman terbaik
+                    kepada pengguna.
                 </p>
 
-                <a href="#">Lihat Proyek →</a>
+                <p>
+                    Saya adalah seorang Web Developer yang
+                    memiliki ketertarikan pada pengembangan
+                    website modern dan desain antarmuka.
+                </p>
+
+                <p>
+                    Saya terus belajar teknologi baru dan
+                    berusaha membuat setiap proyek menjadi
+                    lebih baik, cepat, responsif, dan mudah
+                    digunakan.
+                </p>
+
             </div>
 
-            <div class="project-card">
-                <div class="project-icon">🌐</div>
+            <div class="about-card">
 
-                <h3>Website Portfolio</h3>
+                <div class="about-card-icon">
+                    ✦
+                </div>
 
-                <p>
-                    Website portfolio pribadi dengan desain
-                    modern dan responsif yang dapat digunakan
-                    untuk menampilkan profil dan proyek.
-                </p>
-
-                <a href="#">Lihat Proyek →</a>
-            </div>
-
-            <div class="project-card">
-                <div class="project-icon">💻</div>
-
-                <h3>Website Landing Page</h3>
+                <h3>
+                    Creative Developer
+                </h3>
 
                 <p>
-                    Landing page sederhana dengan tampilan
-                    profesional yang dibuat menggunakan HTML
-                    dan CSS.
+                    Menggabungkan teknologi dan kreativitas
+                    untuk menciptakan website yang menarik.
                 </p>
 
-                <a href="#">Lihat Proyek →</a>
+                <div class="about-line"></div>
+
+                <span>
+                    HTML • CSS • JavaScript
+                </span>
+
             </div>
 
         </div>
+
     </section>
 
-    <!-- Kontak -->
-    <section id="contact">
-        <div class="section-title">
-            <p>CONTACT</p>
-            <h2>Hubungi Saya</h2>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section skills-section">
+
+        <div class="section-label">
+            <span>02</span>
+            MY SKILLS
         </div>
 
-        <div class="contact-box">
-            <h3>Tertarik bekerja sama?</h3>
+        <div class="section-title">
+            <h2>
+                Teknologi yang
+                <span>saya gunakan.</span>
+            </h2>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <div class="skill-icon html-icon">
+                    HTML
+                </div>
+
+                <div class="skill-info">
+                    <h3>HTML</h3>
+                    <p>Structure & Semantic Web</p>
+                </div>
+
+                <strong>90%</strong>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-icon css-icon">
+                    CSS
+                </div>
+
+                <div class="skill-info">
+                    <h3>CSS</h3>
+                    <p>Modern UI & Responsive</p>
+                </div>
+
+                <strong>85%</strong>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-icon js-icon">
+                    JS
+                </div>
+
+                <div class="skill-info">
+                    <h3>JavaScript</h3>
+                    <p>Interactive Web</p>
+                </div>
+
+                <strong>70%</strong>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-icon ui-icon">
+                    UI
+                </div>
+
+                <div class="skill-info">
+                    <h3>UI Design</h3>
+                    <p>Interface & Experience</p>
+                </div>
+
+                <strong>75%</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section projects-section">
+
+        <div class="section-label">
+            <span>03</span>
+            SELECTED WORK
+        </div>
+
+        <div class="project-heading">
+
+            <div class="section-title">
+                <h2>
+                    Proyek
+                    <span>terbaru.</span>
+                </h2>
+            </div>
 
             <p>
-                Jika Anda ingin berdiskusi tentang proyek,
-                website, atau kerja sama, silakan hubungi saya.
+                Beberapa proyek yang pernah saya kerjakan
+                dan kembangkan.
             </p>
 
-            <a href="mailto:emailanda@gmail.com" class="btn">
-                Kirim Email
-            </a>
         </div>
+
+
+        <div class="projects-grid">
+
+            <!-- PROJECT 1 -->
+
+            <article class="project">
+
+                <div class="project-visual visual-blue">
+                    <div class="mockup">
+                        <div class="mockup-top"></div>
+
+                        <div class="mockup-content">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <span class="project-number">
+                        01
+                    </span>
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <small>WEB APPLICATION</small>
+
+                        <h3>
+                            Sistem Presensi
+                        </h3>
+                    </div>
+
+                    <p>
+                        Aplikasi pencatatan kehadiran pegawai
+                        yang sederhana dan terorganisir.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="#" class="project-button">
+                        View Project
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 2 -->
+
+            <article class="project">
+
+                <div class="project-visual visual-purple">
+                    <div class="mockup">
+                        <div class="mockup-top"></div>
+
+                        <div class="mockup-content">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <span class="project-number">
+                        02
+                    </span>
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <small>PERSONAL WEBSITE</small>
+
+                        <h3>
+                            Portfolio Website
+                        </h3>
+                    </div>
+
+                    <p>
+                        Website portfolio pribadi dengan
+                        desain modern dan responsif.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Responsive</span>
+                    </div>
+
+                    <a href="#" class="project-button">
+                        View Project
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 3 -->
+
+            <article class="project">
+
+                <div class="project-visual visual-cyan">
+                    <div class="mockup">
+                        <div class="mockup-top"></div>
+
+                        <div class="mockup-content">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <span class="project-number">
+                        03
+                    </span>
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <small>LANDING PAGE</small>
+
+                        <h3>
+                            Modern Landing Page
+                        </h3>
+                    </div>
+
+                    <p>
+                        Landing page modern untuk kebutuhan
+                        promosi dan branding.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>UI/UX</span>
+                    </div>
+
+                    <a href="#" class="project-button">
+                        View Project
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
     </section>
 
-    <!-- Footer -->
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact-section">
+
+        <div class="contact-glow"></div>
+
+        <div class="contact-content">
+
+            <div class="section-label">
+                <span>04</span>
+                GET IN TOUCH
+            </div>
+
+            <h2>
+                Mari membuat sesuatu
+                <span>yang keren.</span>
+            </h2>
+
+            <p>
+                Punya ide website atau proyek menarik?
+                Jangan ragu untuk menghubungi saya.
+                Mari berdiskusi dan membuatnya menjadi nyata.
+            </p>
+
+            <a href="mailto:emailanda@gmail.com" class="contact-button">
+                Let's Work Together
+                <span>↗</span>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
     <footer>
+
+        <div class="footer-logo">
+            MID<span>.</span>
+        </div>
+
         <p>
-            © 2026 Muhammad Ibrahim Dasuki. All Rights Reserved.
+            © 2026 Muhammad Ibrahim Dasuki
         </p>
+
+        <p>
+            Built with HTML & CSS
+        </p>
+
     </footer>
+
 
 </body>
 </html>
